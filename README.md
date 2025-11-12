@@ -1,2 +1,126 @@
-# privacy-policy
-privacy-policy
+# ⚓ Политика конфиденциальности (Privacy Policy)
+
+**Дата вступления в силу:** 12 ноября 2025 г.  
+**Разработчик:** Reida Volidymyr  
+**Электронная почта:** [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
+
+---
+
+## 🇷🇺 Политика конфиденциальности
+
+Приложение **MaritimeHub** разработано Reida Volidymyr.  
+Этот документ объясняет, какие данные приложение может использовать и как они обрабатываются.
+
+---
+
+### 1. Геолокация
+Приложение запрашивает доступ к геопозиции устройства **только для выполнения навигационных расчётов**:  
+- определения текущего положения судна,  
+- вычисления скорости, пройденного расстояния.  
+
+Координаты **не передаются** разработчику или третьим лицам и **не сохраняются** вне устройства.
+
+---
+
+### 2. Сенсоры ориентации
+Приложение может использовать акселерометр и гироскоп для отображения **кренa судна**.  
+Эти данные обрабатываются **только на устройстве** и не сохраняются.
+
+---
+
+### 3. Локальное хранилище (TinyDB)
+Некоторые функции (например, сохранение параметров или расчётов) используют компонент **TinyDB**.  
+Данные хранятся **локально** на устройстве и **не отправляются в интернет**.
+
+---
+
+### 4. Интернет-доступ и внешние сайты
+Интернет используется только для:
+- отображения прогноза погоды с сайта [PassageWeather.com](https://passageweather.com) через WebViewer,  
+- загрузки справочной информации (таблицы, списки и т.д.).  
+
+Приложение **не собирает** информацию с этих сайтов.  
+Сайт PassageWeather управляется сторонней компанией, и на него распространяется **его собственная политика конфиденциальности**.
+
+---
+
+### 5. Не собираемые данные
+Приложение **не** запрашивает и **не хранит**:
+- личные данные пользователей,  
+- контакты, фотографии, аудио или видео,  
+- платёжные реквизиты.
+
+---
+
+### 6. Хранение и безопасность
+Все расчёты и данные обрабатываются **внутри приложения** без передачи наружу.  
+Приложение не требует регистрации и не использует удалённые серверы.
+
+---
+
+### 7. Контакты
+По вопросам конфиденциальности:  
+📧 [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
+
+---
+
+## 🇬🇧 Privacy Policy (English version)
+
+**Effective date:** November 12, 2025  
+**Developer:** Reida Volidymyr  
+**Email:** [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
+
+---
+
+### 1. Location data
+The **MaritimeHub** app requests location access only for navigation purposes:  
+- to determine vessel position,  
+- to calculate distance, speed.  
+
+All location data stays on your device — it is **not transmitted** or stored externally.
+
+---
+
+### 2. Orientation sensors
+The app uses accelerometer and gyroscope sensors to display the vessel’s **heel/roll angle**.  
+Sensor data is processed locally only.
+
+---
+
+### 3. Local storage (TinyDB)
+Some features store user inputs or results using **TinyDB**.  
+All data remains **on your device** and is never uploaded to any server.
+
+---
+
+### 4. Internet access and external sites
+Internet connection is used only to:  
+- display weather forecasts from [PassageWeather.com](https://passageweather.com) via WebViewer,  
+- load reference information such as tables or lists.  
+
+The app does **not** collect any user information from these sites.  
+PassageWeather is operated by a third party and follows its own privacy policy.
+
+---
+
+### 5. Data not collected
+The app does **not** collect or store:  
+- personal identification data,  
+- contacts, photos, or media,  
+- financial or payment data.
+
+---
+
+### 6. Data processing and security
+All processing is done locally on the device.  
+The app does not require user accounts and does not connect to remote servers.
+
+---
+
+### 7. Contact
+For any privacy-related questions, please contact:  
+📧 [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
+
+---
+
+© 2025 Reida Volidymyr. All rights reserved.
