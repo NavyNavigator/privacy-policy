@@ -1,7 +1,7 @@
 ## 🇬🇧 Privacy Policy
 
 **Effective date:** November 12, 2025  
-**Developer:** Reida Volidymyr  
+**Developer:** Reida Volodymyr  
 **Email:** [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
 
 ---
@@ -60,7 +60,7 @@ For any privacy-related questions, please contact:
 ##🇺🇦 Політика конфіденційності
 
 **Набрання чинності:** 12 листопада 2025
-**Розробник:** Reida Volidymyr
+**Розробник:** Reida Volodymyr
 **Email:**
 [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
 
@@ -133,7 +133,7 @@ For any privacy-related questions, please contact:
 # ⚓ Политика конфиденциальности (Privacy Policy)
 
 **Дата вступления в силу:** 12 ноября 2025 г.  
-**Разработчик:** Reida Volidymyr  
+**Разработчик:** Reida Volodymyr  
 **Электронная почта:** [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
 
 ---
@@ -197,4 +197,4 @@ For any privacy-related questions, please contact:
 
 ---
 
-© 2025 Reida Volidymyr. All rights reserved.
+© 2025 Reida Volodymyr. All rights reserved.
