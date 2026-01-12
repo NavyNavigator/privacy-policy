@@ -1,0 +1,93 @@
+# Privacy Policy
+
+**Effective date:** January 12, 2026
+
+This Privacy Policy explains how **Volodymyr Reida** (“we”, “us”, “our”) handles information when you use **MaritimeHub** (including the **MaritimeHub ECDIS** module) (the “App”).
+
+## 1) Overview (Offline-first)
+
+The App is designed to work primarily offline. It does not require creating an account, and we do not operate a backend server to collect your personal data.
+
+## 2) Information We Collect
+
+### 2.1 Information you provide
+
+You may enter or import navigation-related data, such as:
+
+* Routes and waypoints you create
+* Route files you choose to import (e.g., RTZ routes)
+
+### 2.2 Location information (when you enable it)
+
+If you enable GPS inside the App, the App uses your device location to display the vessel position and compute navigation values (e.g., COG/SOG/DTG/ETA).
+
+### 2.3 On-device storage (local)
+
+To provide continuity between sessions, the App may store certain data **locally on your device**, such as saved routes and past track history (for example using WebView local storage). This data stays on your device unless you delete it.
+
+### 2.4 PRO / in-app purchase status
+
+The App may support a PRO unlock flow. The App can initiate a purchase request and can receive purchase status updates to enable or restrict PRO features.
+**We do not collect or store your payment card details.** Purchases are handled by Google Play, and any payment information is processed by Google, not by us.
+
+## 3) How We Use Information
+
+We use the information described above only to:
+
+* Display your position (if enabled) and show navigation information
+* Create, edit, import, and display routes/waypoints
+* Draw and restore a past track (if the feature exists in your version)
+* Enable/disable PRO features based on purchase status
+
+## 4) Data Sharing
+
+We do **not** sell your personal information.
+
+We do **not** share your routes, waypoints, or past track with third parties because they are stored locally on your device.
+
+### Third-party services
+
+* **Google Play Billing / Google Play Services:** Used to process in-app purchases and provide purchase status to the App. Google’s processing is governed by Google’s own policies.
+
+## 5) Map Data and Attribution (Natural Earth)
+
+The App may use map data from **Natural Earth**, which is provided in the **public domain**. Natural Earth data is used as a base map/background for visualization.
+
+## 6) Permissions (Mobile Device)
+
+Depending on how your build is configured, the App may request:
+
+* **Location** permission — to show vessel position when GPS is enabled
+* **File access / storage** permission — only if you use route import features (e.g., selecting an RTZ file)
+* **Internet** permission — may be required for Google Play purchase flow and any optional online features
+
+## 7) Optional Online Features (if enabled in your build)
+
+Some versions of the App may include optional online features (for example, online weather). If you use such features, the App may send user-entered data (and/or coordinates required for the feature) to the selected service provider. We do not control how third-party services process data, and their policies apply.
+
+## 8) Data Retention
+
+Because routes and past track data are stored locally on your device, they remain there until you remove them by:
+
+* using the App’s clear/reset functions (if available), or
+* clearing the App storage in your device settings, or
+* uninstalling the App.
+
+## 9) Security
+
+We take reasonable steps to minimize data handling by keeping it on-device. However, no method of storage is 100% secure, and we cannot guarantee absolute security.
+
+## 10) Children’s Privacy
+
+The App is not intended for children under 13, and we do not knowingly collect personal information from children.
+
+## 11) Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. The “Effective date” at the top indicates when it was last revised.
+
+## 12) Contact
+
+If you have questions about this Privacy Policy, contact:
+
+**Volodymyr Reida**
+Email: **[Reida3rdmate2016@gmail.com](mailto:Reida3rdmate2016@gmail.com)**
