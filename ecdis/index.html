@@ -8,109 +8,139 @@
     :root { color-scheme: light dark; }
     body { font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; margin:0; }
     .wrap { max-width: 900px; margin: 0 auto; padding: 24px 16px 48px; }
-    h1 { margin: 8px 0 16px; font-size: 32px; }
-    h2 { margin-top: 26px; }
+    h1 { margin: 8px 0 6px; font-size: 32px; }
+    .muted { opacity: .75; margin: 0 0 18px; }
+    h2 { margin: 26px 0 10px; font-size: 20px; }
+    h3 { margin: 18px 0 8px; font-size: 16px; }
     p, li { line-height: 1.55; }
-    .muted { opacity: .75; }
-    hr { margin: 20px 0; opacity: .25; }
+    ul { margin: 8px 0 12px 18px; padding: 0; }
+    hr { margin: 18px 0; opacity: .25; }
+    a { word-break: break-word; }
   </style>
 </head>
 <body>
   <main class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="muted"><strong>Effective date:</strong> January 12, 2026</p>
+    <hr>
 
-# Privacy Policy
+    <p>
+      This Privacy Policy explains how <strong>Volodymyr Reida</strong> (“we”, “us”, “our”) handles information
+      when you use <strong>MaritimeHub</strong> (including the <strong>MaritimeHub ECDIS</strong> module) (the “App”).
+    </p>
 
-**Effective date:** January 12, 2026
+    <h2>1) Overview (Offline-first)</h2>
+    <p>
+      The App is designed to work primarily offline. It does not require creating an account, and we do not operate a
+      backend server to collect your personal data.
+    </p>
 
-This Privacy Policy explains how **Volodymyr Reida** (“we”, “us”, “our”) handles information when you use **MaritimeHub** (including the **MaritimeHub ECDIS** module) (the “App”).
+    <h2>2) Information We Collect</h2>
 
-## 1) Overview (Offline-first)
+    <h3>2.1 Information you provide</h3>
+    <p>You may enter or import navigation-related data, such as:</p>
+    <ul>
+      <li>Routes and waypoints you create</li>
+      <li>Route files you choose to import (e.g., RTZ routes)</li>
+    </ul>
 
-The App is designed to work primarily offline. It does not require creating an account, and we do not operate a backend server to collect your personal data.
+    <h3>2.2 Location information (when you enable it)</h3>
+    <p>
+      If you enable GPS inside the App, the App uses your device location to display the vessel position and compute
+      navigation values (e.g., COG/SOG/DTG/ETA).
+    </p>
 
-## 2) Information We Collect
+    <h3>2.3 On-device storage (local)</h3>
+    <p>
+      To provide continuity between sessions, the App may store certain data <strong>locally on your device</strong>,
+      such as saved routes and past track history (for example using WebView local storage). This data stays on your
+      device unless you delete it.
+    </p>
 
-### 2.1 Information you provide
+    <h3>2.4 PRO / in-app purchase status</h3>
+    <p>
+      The App may support a PRO unlock flow. The App can initiate a purchase request and can receive purchase status
+      updates to enable or restrict PRO features. <strong>We do not collect or store your payment card details.</strong>
+      Purchases are handled by Google Play, and any payment information is processed by Google, not by us.
+    </p>
 
-You may enter or import navigation-related data, such as:
+    <h2>3) How We Use Information</h2>
+    <p>We use the information described above only to:</p>
+    <ul>
+      <li>Display your position (if enabled) and show navigation information</li>
+      <li>Create, edit, import, and display routes/waypoints</li>
+      <li>Draw and restore a past track (if the feature exists in your version)</li>
+      <li>Enable/disable PRO features based on purchase status</li>
+    </ul>
 
-* Routes and waypoints you create
-* Route files you choose to import (e.g., RTZ routes)
+    <h2>4) Data Sharing</h2>
+    <p>We do <strong>not</strong> sell your personal information.</p>
+    <p>
+      We do <strong>not</strong> share your routes, waypoints, or past track with third parties because they are stored
+      locally on your device.
+    </p>
 
-### 2.2 Location information (when you enable it)
+    <h3>Third-party services</h3>
+    <ul>
+      <li>
+        <strong>Google Play Billing / Google Play Services:</strong> Used to process in-app purchases and provide
+        purchase status to the App. Google’s processing is governed by Google’s own policies.
+      </li>
+    </ul>
 
-If you enable GPS inside the App, the App uses your device location to display the vessel position and compute navigation values (e.g., COG/SOG/DTG/ETA).
+    <h2>5) Map Data and Attribution (Natural Earth)</h2>
+    <p>
+      The App may use map data from <strong>Natural Earth</strong>, which is provided in the <strong>public domain</strong>.
+      Natural Earth data is used as a base map/background for visualization.
+    </p>
 
-### 2.3 On-device storage (local)
+    <h2>6) Permissions (Mobile Device)</h2>
+    <p>Depending on how your build is configured, the App may request:</p>
+    <ul>
+      <li><strong>Location</strong> permission — to show vessel position when GPS is enabled</li>
+      <li><strong>File access / storage</strong> permission — only if you use route import features (e.g., selecting an RTZ file)</li>
+      <li><strong>Internet</strong> permission — may be required for Google Play purchase flow and any optional online features</li>
+    </ul>
 
-To provide continuity between sessions, the App may store certain data **locally on your device**, such as saved routes and past track history (for example using WebView local storage). This data stays on your device unless you delete it.
+    <h2>7) Optional Online Features (if enabled in your build)</h2>
+    <p>
+      Some versions of the App may include optional online features (for example, online weather). If you use such features,
+      the App may send user-entered data (and/or coordinates required for the feature) to the selected service provider.
+      We do not control how third-party services process data, and their policies apply.
+    </p>
 
-### 2.4 PRO / in-app purchase status
+    <h2>8) Data Retention</h2>
+    <p>
+      Because routes and past track data are stored locally on your device, they remain there until you remove them by:
+    </p>
+    <ul>
+      <li>using the App’s clear/reset functions (if available), or</li>
+      <li>clearing the App storage in your device settings, or</li>
+      <li>uninstalling the App.</li>
+    </ul>
 
-The App may support a PRO unlock flow. The App can initiate a purchase request and can receive purchase status updates to enable or restrict PRO features.
-**We do not collect or store your payment card details.** Purchases are handled by Google Play, and any payment information is processed by Google, not by us.
+    <h2>9) Security</h2>
+    <p>
+      We take reasonable steps to minimize data handling by keeping it on-device. However, no method of storage is 100% secure,
+      and we cannot guarantee absolute security.
+    </p>
 
-## 3) How We Use Information
+    <h2>10) Children’s Privacy</h2>
+    <p>
+      The App is not intended for children under 13, and we do not knowingly collect personal information from children.
+    </p>
 
-We use the information described above only to:
+    <h2>11) Changes to This Privacy Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. The “Effective date” at the top indicates when it was last revised.
+    </p>
 
-* Display your position (if enabled) and show navigation information
-* Create, edit, import, and display routes/waypoints
-* Draw and restore a past track (if the feature exists in your version)
-* Enable/disable PRO features based on purchase status
-
-## 4) Data Sharing
-
-We do **not** sell your personal information.
-
-We do **not** share your routes, waypoints, or past track with third parties because they are stored locally on your device.
-
-### Third-party services
-
-* **Google Play Billing / Google Play Services:** Used to process in-app purchases and provide purchase status to the App. Google’s processing is governed by Google’s own policies.
-
-## 5) Map Data and Attribution (Natural Earth)
-
-The App may use map data from **Natural Earth**, which is provided in the **public domain**. Natural Earth data is used as a base map/background for visualization.
-
-## 6) Permissions (Mobile Device)
-
-Depending on how your build is configured, the App may request:
-
-* **Location** permission — to show vessel position when GPS is enabled
-* **File access / storage** permission — only if you use route import features (e.g., selecting an RTZ file)
-* **Internet** permission — may be required for Google Play purchase flow and any optional online features
-
-## 7) Optional Online Features (if enabled in your build)
-
-Some versions of the App may include optional online features (for example, online weather). If you use such features, the App may send user-entered data (and/or coordinates required for the feature) to the selected service provider. We do not control how third-party services process data, and their policies apply.
-
-## 8) Data Retention
-
-Because routes and past track data are stored locally on your device, they remain there until you remove them by:
-
-* using the App’s clear/reset functions (if available), or
-* clearing the App storage in your device settings, or
-* uninstalling the App.
-
-## 9) Security
-
-We take reasonable steps to minimize data handling by keeping it on-device. However, no method of storage is 100% secure, and we cannot guarantee absolute security.
-
-## 10) Children’s Privacy
-
-The App is not intended for children under 13, and we do not knowingly collect personal information from children.
-
-## 11) Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. The “Effective date” at the top indicates when it was last revised.
-
-## 12) Contact
-
-If you have questions about this Privacy Policy, contact:
-
-**Volodymyr Reida**
-Email: **[Reida3rdmate2016@gmail.com](mailto:Reida3rdmate2016@gmail.com)**
-</main>
+    <h2>12) Contact</h2>
+    <p>If you have questions about this Privacy Policy, contact:</p>
+    <p><strong>Volodymyr Reida</strong><br>
+      Email: <a href="mailto:Reida3rdmate2016@gmail.com">Reida3rdmate2016@gmail.com</a>
+    </p>
+  </main>
 </body>
 </html>
+
