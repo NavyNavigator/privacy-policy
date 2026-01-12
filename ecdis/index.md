@@ -1,3 +1,6 @@
+---
+title: Privacy Policy — MaritimeHub ECDIS
+---
 # Privacy Policy
 
 **Effective date:** January 12, 2026
