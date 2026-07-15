@@ -1,288 +1,223 @@
-# 🇬🇧 Privacy Policy
+# Privacy Policy
 
-**Effective date (Last updated):** January 18, 2026  
+**Effective date (Last updated): July 15, 2026**
+
 **App:** MaritimeHub  
 **Developer:** Reida Volodymyr  
-**Email:** [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
+**Contact email:** reida3rdmate2016@gmail.com
 
-This Privacy Policy explains how the MaritimeHub app processes information.
+This Privacy Policy explains how the MaritimeHub mobile application accesses, uses, stores, and shares information.
 
----
-
-## 1. Location data
-The app may request access to your device location **only for navigation purposes**, such as:
-* determining vessel position
-* calculating distance and speed
-
-Location data is processed **locally on your device** and is **not transmitted** to the developer or stored on external servers.
+MaritimeHub is designed primarily as an offline maritime calculation, reference, and navigation-support application. Most processing is performed locally on the user's device.
 
 ---
 
-## 2. Orientation sensors
-The app uses device sensors (accelerometer/gyroscope) to display the vessel’s **heel/roll angle**.  
-Sensor data is processed **locally** and is not shared.
+## 1. Location Data
+
+MaritimeHub may request access to the device's precise or approximate location when the user opens or activates a feature that requires vessel position, speed, course, distance, or map positioning.
+
+Location may be used by features such as:
+
+- Anchor Watch
+- Compass Error
+- Sun Times
+- GPS Monitor
+- Simplified ECDIS
+- Load Line, NAVAREA, NAVTEX, ECA, e-NP, chart, IALA, and other reference maps
+- Route-related and position-related calculations
+
+Location access starts only after a relevant user action or when a location-dependent screen is opened.
+
+Location data is processed locally on the device. MaritimeHub does not transmit location data to the developer, does not store location history on the developer's servers, and does not use location for advertising or user profiling.
+
+Location monitoring is stopped when the relevant feature is closed or when the app is moved to the background, except where the operating system temporarily pauses the app for a permission or settings screen.
 
 ---
 
-## 3. Flashlight (Morse code)
-The app can use the phone’s **flashlight** to transmit Morse code.
-* If the system requests **Camera permission**, it is used **only to control the flashlight**
-* The app does **not** take photos, record video, or access camera content
+## 2. Device Sensors
+
+MaritimeHub may use device sensors, including the accelerometer, magnetic-field sensor, and other orientation sensors, to provide features such as vessel heel or roll indication and heading-related calculations.
+
+Sensor data is processed locally on the device and is not transmitted to the developer or stored on external servers.
 
 ---
 
-## 4. Vibration
-The app may use **vibration** to provide haptic feedback (for example, in Morse mode).  
-No data is collected from vibration.
+## 3. Camera Permission and Flashlight
+
+The Morse Code feature may use the device flashlight to transmit Morse signals.
+
+On some Android devices, the operating system requires Camera permission in order to control the flashlight. When requested, this permission is used only for flashlight access.
+
+MaritimeHub:
+
+- does not take photographs
+- does not record video
+- does not access stored camera content
+- does not upload camera data
 
 ---
 
-## 5. Local storage (TinyDB)
-Some features store user inputs or results using **TinyDB** (local storage).  
-All saved data remains **on your device** and is **never uploaded** to any server.
+## 4. Audio Output
+
+The Morse Code feature may generate audible tones through the device speaker.
+
+MaritimeHub does not access the microphone, does not record audio, and does not collect audio data.
 
 ---
 
-## 6. Purchases and subscriptions (Google Play Billing)
-The app offers:
-* a one-time **PRO** purchase
-* a **monthly subscription**
+## 5. Local Storage
 
-Payments are processed by **Google Play**. The developer does **not** receive or store your full payment information (such as card details). Google may process data according to its own policies.
+MaritimeHub may store information locally on the device in order to preserve user settings and app content. This may include:
 
----
+- values entered into calculators
+- ship particulars
+- saved reports
+- saved routes and waypoints
+- calculation results
+- selected options and preferences
+- app page and scroll positions
+- other data intentionally saved by the user
 
-## 7. Internet access and external services
-Internet connection is used only to:
-* display weather forecasts from **PassageWeather.com** via WebViewer
-* load reference information (tables/lists) when needed
+Local data may be stored using HTML local storage, application preferences, or local application files.
 
-The app itself does **not** collect personal data from these sites.  
-PassageWeather is a third-party service and operates under its own privacy policy.
-
----
-
-## 8. Maps / basemap data (Natural Earth)
-The app may use coastline/basemap data from **Natural Earth (Public Domain)**.  
-This data is used only for map display and does not collect user information.
+This locally stored information is not automatically uploaded to the developer or to a developer-operated server.
 
 ---
 
-## 9. Data not collected
-The app does **not** collect or store:
-* personal identification data
-* contacts, photos, or media
-* your precise location history on external servers
-* financial/payment card data
+## 6. User-Selected Files
+
+Some features may allow the user to select or import files, such as RTZ route files.
+
+Selected files are processed locally on the device for the requested function. MaritimeHub does not automatically upload selected files to the developer or to an external server.
 
 ---
 
-## 10. Data processing and security
-All calculations and processing are performed **locally** on the device.  
-The app does not require user accounts and does not operate its own remote servers for storing user data.
+## 7. Purchases and Subscriptions
+
+MaritimeHub may offer one-time purchases and recurring subscriptions through Google Play Billing.
+
+Google Play processes purchases, subscriptions, refunds, and payment information. The developer does not receive or store full payment-card details.
+
+The app may communicate with Google Play to:
+
+- retrieve product and subscription information
+- process purchases
+- restore or verify purchase entitlement
+- determine whether PRO features are available
+
+Google may process account, device, transaction, and payment-related information according to Google's own privacy policies and terms.
 
 ---
 
-## 11. Contact
-For any privacy-related questions, contact:  
-* 📧 [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
+## 8. Internet Access and External Services
+
+Most MaritimeHub tools work offline. Internet access may be used for functions including:
+
+- opening PassageWeather weather information
+- opening Telegram, Facebook, Instagram, or other external community pages
+- opening an email application for support or a user-requested GRIB email
+- communicating with Google Play Billing
+- opening other external websites or services selected by the user
+
+External websites are opened in the device's system browser or another application chosen by the user.
+
+MaritimeHub does not control the privacy practices of external websites, email providers, social networks, or Google Play. Once an external service is opened, that service may process information according to its own privacy policy and terms.
 
 ---
 
-## 12. Changes to this policy
-This policy may be updated when app features change. The “Effective date” will be revised accordingly.
+## 9. Email and Support Communications
+
+When the user selects an email-related function, MaritimeHub may open the device's email application with a recipient, subject, or message text already filled in.
+
+No email is sent automatically. The user must review and send the message through the selected email application.
+
+If a user voluntarily contacts the developer, the developer may receive:
+
+- the sender's name and email address
+- the contents of the message
+- files, screenshots, or other information voluntarily attached by the sender
+
+This information is used only to respond to the request, provide support, investigate a reported problem, or maintain necessary correspondence.
 
 ---
 
-# 🇺🇦 Політика конфіденційності
+## 10. Maps and Reference Data
 
-**Набрання чинності (Оновлено):** 18 січня 2026  
-**Додаток:** MaritimeHub  
-**Розробник:** Reida Volodymyr  
-**Email:** [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
+MaritimeHub may use offline or bundled coastline, basemap, port, maritime-area, and other reference datasets, including data derived from sources such as Natural Earth.
 
-Ця Політика конфіденційності пояснює, як додаток MaritimeHub обробляє інформацію.
+These datasets are used to display maps and reference information. The datasets themselves do not collect user information.
 
 ---
 
-## 1. Геолокація
-Додаток може запитувати доступ до місцезнаходження **лише з навігаційною метою**:
-* визначення позиції судна
-* розрахунок дистанції та швидкості
+## 11. Analytics and Advertising
 
-Дані геолокації обробляються **локально на пристрої** та **не передаються** розробнику або на зовнішні сервери.
+MaritimeHub does not currently include third-party advertising SDKs and does not use personal data for targeted advertising.
 
----
+MaritimeHub does not currently use third-party analytics services to track users across apps or websites.
 
-## 2. Датчики орієнтації
-Додаток використовує акселерометр/гіроскоп для відображення **крену/хитавиці** судна.  
-Уся обробка — **локально**, без передачі даних.
+If this changes in a future version, this Privacy Policy and the Google Play Data safety declaration will be updated before or when the change is released.
 
 ---
 
-## 3. Ліхтарик (азбука Морзе)
-Додаток може використовувати **спалах (flashlight)** для передачі азбуки Морзе.
-* Якщо система запитує дозвіл **Камера**, він потрібен **лише для керування спалахом**
-* Додаток **не** робить фото, **не** записує відео та **не** отримує доступ до вмісту камери
+## 12. Data Sharing and Sale
+
+The developer does not sell user personal data.
+
+MaritimeHub does not transmit locally entered calculations, routes, reports, ship particulars, sensor readings, or location history to the developer.
+
+Information may be processed by a third party only when necessary for a user-requested external action, such as Google Play Billing, opening a website, or sending an email through the user's chosen provider.
 
 ---
 
-## 4. Вібрація
-Додаток може використовувати **вібрацію** як тактильний зворотний зв’язок (наприклад, у режимі Морзе).  
-Жодні дані з вібрації не збираються.
+## 13. Data Retention and Deletion
+
+Data saved inside MaritimeHub remains on the device until it is:
+
+- deleted through an available in-app function
+- cleared through the device application settings
+- removed when the app is uninstalled
+- otherwise deleted by the user or the operating system
+
+MaritimeHub does not provide user accounts and does not maintain a remote user profile database.
+
+Support emails and related correspondence may be retained only for as long as reasonably necessary to respond to the request, resolve a problem, maintain records of the correspondence, or comply with applicable legal obligations.
+
+A user may request deletion of support correspondence held by the developer by contacting:
+
+**reida3rdmate2016@gmail.com**
 
 ---
 
-## 5. Локальне збереження (TinyDB)
-Деякі функції зберігають введені дані або результати у **TinyDB**.  
-Усі дані залишаються **на вашому пристрої** та **ніколи** не надсилаються на сервери.
+## 14. Data Security
+
+MaritimeHub minimizes data transmission by performing most calculations and processing locally on the device.
+
+However, no device, storage system, email service, or internet transmission method can be guaranteed to be completely secure. Users should avoid including unnecessary sensitive personal information in support messages, reports, routes, or other locally stored content.
 
 ---
 
-## 6. Покупки та підписки (Google Play Billing)
-У додатку доступні:
-* одноразова покупка **PRO**
-* **місячна підписка**
+## 15. Children's Privacy
 
-Оплата обробляється **Google Play**. Розробник **не** зберігає та **не** отримує повні платіжні дані (наприклад, реквізити картки). Google може обробляти дані відповідно до власних політик.
+MaritimeHub is a professional maritime utility and is not directed to children under the age of 13.
 
----
-
-## 7. Інтернет та зовнішні сервіси
-Інтернет використовується лише для:
-* відображення прогнозу погоди з **PassageWeather.com** через WebViewer
-* завантаження довідкової інформації (таблиці/списки) за потреби
-
-Додаток сам по собі **не** збирає персональні дані з цих сайтів.  
-PassageWeather — сторонній сервіс зі своєю політикою конфіденційності.
+The developer does not knowingly collect personal information from children through the app.
 
 ---
 
-## 8. Карти / підкладка (Natural Earth)
-Додаток може використовувати берегову підкладку **Natural Earth (Public Domain)**.  
-Ці дані використовуються лише для відображення карти та не збирають інформацію про користувача.
+## 16. Changes to This Privacy Policy
+
+This Privacy Policy may be updated when MaritimeHub features, permissions, data practices, third-party services, or legal requirements change.
+
+The updated version will be published at the same privacy-policy URL, and the “Last updated” date will be revised.
 
 ---
 
-## 9. Дані, які не збираються
-Додаток **не** збирає та не зберігає:
-* персональні ідентифікаційні дані
-* контакти, фото чи медіафайли
-* історію точних координат на зовнішніх серверах
-* платіжні дані/реквізити картки
+## 17. Contact
 
----
+For privacy-related questions or requests, contact:
 
-## 10. Обробка та безпека
-Усі розрахунки виконуються **локально на пристрої**.  
-Додаток не вимагає облікового запису та не використовує власні сервери для зберігання даних користувача.
-
----
-
-## 11. Контакти
-З питань конфіденційності:  
-* 📧 [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
-
----
-
-## 12. Зміни в політиці
-Політика може оновлюватися зі змінами функцій додатка. Дата набрання чинності буде оновлена.
-
----
-
-# 🇷🇺 Политика конфиденциальности
-
-**Дата вступления в силу (Обновлено):** 18 января 2026 г.  
-**Приложение:** MaritimeHub  
-**Разработчик:** Reida Volodymyr  
-**Email:** [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
-
-Этот документ объясняет, какие данные может использовать приложение MaritimeHub и как они обрабатываются.
-
----
-
-## 1. Геолокация
-Приложение может запрашивать доступ к геопозиции **только для навигационных задач**:
-* определение позиции судна
-* расчёт скорости и дистанции
-
-Данные геолокации обрабатываются **локально на устройстве** и **не передаются** разработчику или на внешние серверы.
-
----
-
-## 2. Сенсоры ориентации
-Приложение использует акселерометр/гироскоп для отображения **кренa/качки**.  
-Данные обрабатываются **только на устройстве** и не передаются.
-
----
-
-## 3. Фонарик (азбука Морзе)
-Приложение может использовать **вспышку (flashlight)** для передачи азбуки Морзе.
-* Если система запрашивает разрешение **Камера**, оно используется **только для управления вспышкой**
-* Приложение **не** делает фото, **не** записывает видео и **не** получает доступ к содержимому камеры
-
----
-
-## 4. Вибрация
-Приложение может использовать **вибрацию** для тактильной отдачи (например, в режиме Морзе).  
-Никакие данные при этом не собираются.
-
----
-
-## 5. Локальное хранилище (TinyDB)
-Некоторые функции сохраняют параметры/результаты в **TinyDB**.  
-Все данные хранятся **на устройстве** и **не отправляются** в интернет.
-
----
-
-## 6. Покупки и подписки (Google Play Billing)
-В приложении доступны:
-* разовая покупка **PRO**
-* **месячная подписка**
-
-Оплата обрабатывается **Google Play**. Разработчик **не** хранит и **не** получает полные платёжные данные (например, данные карты). Google может обрабатывать данные согласно собственной политике.
-
----
-
-## 7. Интернет и сторонние ресурсы
-Интернет используется только для:
-* отображения погоды с **PassageWeather.com** через WebViewer
-* загрузки справочных материалов (таблицы/списки) при необходимости
-
-Само приложение **не** собирает персональные данные с этих сайтов.  
-PassageWeather — сторонний сервис и имеет собственную политику конфиденциальности.
-
----
-
-## 8. Карты / подложка (Natural Earth)
-Приложение может использовать береговую подложку **Natural Earth (Public Domain)**.  
-Эти данные применяются только для отображения карты и не собирают данные пользователя.
-
----
-
-## 9. Какие данные не собираются
-Приложение **не** собирает и не хранит:
-* персональные идентификационные данные
-* контакты, фото, медиа
-* историю точных координат на внешних серверах
-* платёжные данные/реквизиты карты
-
----
-
-## 10. Обработка и безопасность
-Все расчёты выполняются **локально на устройстве**.  
-Приложение не требует регистрации и не использует собственные серверы для хранения данных пользователя.
-
----
-
-## 11. Контакты
-По вопросам конфиденциальности:  
-* 📧 [reida3rdmate2016@gmail.com](mailto:reida3rdmate2016@gmail.com)
-
----
-
-## 12. Изменения политики
-Политика может обновляться при изменении функций приложения. Дата вступления в силу будет обновлена.
+**Reida Volodymyr**  
+**Email:** reida3rdmate2016@gmail.com
 
 ---
 
