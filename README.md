@@ -1,12 +1,12 @@
 # Privacy Policy
 
-**Effective date (Last updated): July 15, 2026**
+**Effective date (Last updated): October 29, 2026**
 
 **App:** MaritimeHub  
 **Developer:** Reida Volodymyr  
 **Contact email:** reida3rdmate2016@gmail.com
 
-This Privacy Policy explains how the MaritimeHub mobile application accesses, uses, stores, and shares information.
+This Privacy Policy explains how the MaritimeHub mobile application for Android and iOS accesses, uses, stores, and shares information.
 
 MaritimeHub is designed primarily as an offline maritime calculation, reference, and navigation-support application. Most processing is performed locally on the user's device.
 
@@ -32,6 +32,8 @@ Location data is processed locally on the device. MaritimeHub does not transmit 
 
 Location monitoring is stopped when the relevant feature is closed or when the app is moved to the background, except where the operating system temporarily pauses the app for a permission or settings screen.
 
+Location permissions are managed by the device's operating system and may be changed or revoked by the user through Android or iOS settings.
+
 ---
 
 ## 2. Device Sensors
@@ -40,6 +42,8 @@ MaritimeHub may use device sensors, including the accelerometer, magnetic-field 
 
 Sensor data is processed locally on the device and is not transmitted to the developer or stored on external servers.
 
+Availability of individual sensors and features may vary depending on the device and operating system.
+
 ---
 
 ## 3. Camera Permission and Flashlight
@@ -47,6 +51,8 @@ Sensor data is processed locally on the device and is not transmitted to the dev
 The Morse Code feature may use the device flashlight to transmit Morse signals.
 
 On some Android devices, the operating system requires Camera permission in order to control the flashlight. When requested, this permission is used only for flashlight access.
+
+On iOS, flashlight access is handled through the system's available device APIs.
 
 MaritimeHub:
 
@@ -78,7 +84,7 @@ MaritimeHub may store information locally on the device in order to preserve use
 - app page and scroll positions
 - other data intentionally saved by the user
 
-Local data may be stored using HTML local storage, application preferences, or local application files.
+Local data may be stored using HTML local storage, application preferences, or local application files, depending on the feature and operating system.
 
 This locally stored information is not automatically uploaded to the developer or to a developer-operated server.
 
@@ -90,22 +96,34 @@ Some features may allow the user to select or import files, such as RTZ route fi
 
 Selected files are processed locally on the device for the requested function. MaritimeHub does not automatically upload selected files to the developer or to an external server.
 
+File access may be handled through the Android or iOS system file picker, depending on the device.
+
 ---
 
 ## 7. Purchases and Subscriptions
 
-MaritimeHub may offer one-time purchases and recurring subscriptions through Google Play Billing.
+MaritimeHub may offer one-time purchases and recurring subscriptions through Google Play Billing on Android devices and Apple's In-App Purchase system on iOS devices.
 
-Google Play processes purchases, subscriptions, refunds, and payment information. The developer does not receive or store full payment-card details.
+Purchases, subscriptions, refunds, and payment information are processed by Google Play or Apple App Store, depending on the platform used.
 
-The app may communicate with Google Play to:
+The developer does not receive or store full payment-card details.
+
+The app may communicate with the relevant platform's purchase services to:
 
 - retrieve product and subscription information
 - process purchases
-- restore or verify purchase entitlement
+- restore or verify purchase entitlements
 - determine whether PRO features are available
+- check the status of subscriptions and purchased features
 
-Google may process account, device, transaction, and payment-related information according to Google's own privacy policies and terms.
+Google and Apple may process account, device, transaction, and payment-related information according to their respective privacy policies and terms.
+
+Users can manage subscriptions, payment methods, and purchase-related settings through their Google Play or Apple account, depending on the platform used for the purchase.
+
+For more information:
+
+- Google Privacy Policy: https://policies.google.com/privacy
+- Apple Privacy Policy: https://www.apple.com/legal/privacy/
 
 ---
 
@@ -116,12 +134,14 @@ Most MaritimeHub tools work offline. Internet access may be used for functions i
 - opening PassageWeather weather information
 - opening Telegram, Facebook, Instagram, or other external community pages
 - opening an email application for support or a user-requested GRIB email
-- communicating with Google Play Billing
+- communicating with Google Play Billing or Apple In-App Purchase services
 - opening other external websites or services selected by the user
 
-External websites are opened in the device's system browser or another application chosen by the user.
+External websites may be opened in the device's system browser, an in-app browser, or another application chosen by the user, depending on the feature and operating system.
 
-MaritimeHub does not control the privacy practices of external websites, email providers, social networks, or Google Play. Once an external service is opened, that service may process information according to its own privacy policy and terms.
+MaritimeHub does not control the privacy practices of external websites, email providers, social networks, Google Play, or Apple.
+
+When an external service is used, that service may process information according to its own privacy policy and terms.
 
 ---
 
@@ -155,7 +175,7 @@ MaritimeHub does not currently include third-party advertising SDKs and does not
 
 MaritimeHub does not currently use third-party analytics services to track users across apps or websites.
 
-If this changes in a future version, this Privacy Policy and the Google Play Data safety declaration will be updated before or when the change is released.
+If this changes in a future version, this Privacy Policy and the relevant Google Play Data safety and Apple App Privacy disclosures will be updated before or when the change is released.
 
 ---
 
@@ -165,7 +185,13 @@ The developer does not sell user personal data.
 
 MaritimeHub does not transmit locally entered calculations, routes, reports, ship particulars, sensor readings, or location history to the developer.
 
-Information may be processed by a third party only when necessary for a user-requested external action, such as Google Play Billing, opening a website, or sending an email through the user's chosen provider.
+Information may be processed by a third party only when necessary for a user-requested external action, such as:
+
+- processing purchases through Google Play or Apple App Store
+- opening an external website or online service
+- sending an email through the user's chosen email provider
+
+Such processing is governed by the respective third party's privacy policy and terms.
 
 ---
 
@@ -174,11 +200,13 @@ Information may be processed by a third party only when necessary for a user-req
 Data saved inside MaritimeHub remains on the device until it is:
 
 - deleted through an available in-app function
-- cleared through the device application settings
-- removed when the app is uninstalled
+- cleared through the device application settings, where supported
+- removed when the app is uninstalled, subject to operating system storage and backup behavior
 - otherwise deleted by the user or the operating system
 
 MaritimeHub does not provide user accounts and does not maintain a remote user profile database.
+
+Purchase and subscription records may be retained by Google or Apple according to their respective policies and legal obligations.
 
 Support emails and related correspondence may be retained only for as long as reasonably necessary to respond to the request, resolve a problem, maintain records of the correspondence, or comply with applicable legal obligations.
 
@@ -192,7 +220,9 @@ A user may request deletion of support correspondence held by the developer by c
 
 MaritimeHub minimizes data transmission by performing most calculations and processing locally on the device.
 
-However, no device, storage system, email service, or internet transmission method can be guaranteed to be completely secure. Users should avoid including unnecessary sensitive personal information in support messages, reports, routes, or other locally stored content.
+However, no device, storage system, email service, or internet transmission method can be guaranteed to be completely secure.
+
+Users should avoid including unnecessary sensitive personal information in support messages, reports, routes, or other locally stored content.
 
 ---
 
@@ -208,7 +238,7 @@ The developer does not knowingly collect personal information from children thro
 
 This Privacy Policy may be updated when MaritimeHub features, permissions, data practices, third-party services, or legal requirements change.
 
-The updated version will be published at the same privacy-policy URL, and the “Last updated” date will be revised.
+The updated version will be published at the same privacy-policy URL, and the "Last updated" date will be revised.
 
 ---
 
