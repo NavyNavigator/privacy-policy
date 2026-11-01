@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071b34">
+  <meta name="description" content="Official MaritimeHub support: contact the developer, get assistance with calculations and maps, restore PRO access, and manage purchases.">
+  <title>MaritimeHub — Support</title>
+  <style>
+    :root{color-scheme:dark;--bg:#061529;--card:#0d2742;--line:#23435f;--text:#f3f7fc;--muted:#b6c8da;--accent:#53c6e6;--accent-hi:#83ddf4}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 80% -10%,#123e66 0,transparent 44%),linear-gradient(180deg,#071d37 0%,var(--bg) 65%);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;min-height:100vh}
+    a{color:var(--accent-hi);text-underline-offset:3px}
+    a:hover{color:#c1f0ff}
+    .page{max-width:900px;margin:0 auto;padding:0 22px 60px}
+    .top{display:flex;align-items:center;gap:13px;padding:30px 0 25px;border-bottom:1px solid var(--line)}
+    .mark{width:44px;height:44px;flex-shrink:0;display:grid;place-items:center;border:1px solid #4482ab;border-radius:12px;background:#103b5b}
+    .mark svg{width:26px;height:26px}
+    .brand{font-size:21px;font-weight:700;letter-spacing:.2px}
+    .brand span{display:block;color:var(--muted);font-size:12px;letter-spacing:1.8px;font-weight:600;text-transform:uppercase;line-height:1.2}
+    .hero{padding:48px 0 29px}
+    .eyebrow{color:var(--accent-hi);font-size:12px;text-transform:uppercase;letter-spacing:2px;font-weight:700;margin:0 0 10px}
+    h1{font-size:clamp(33px,6vw,51px);letter-spacing:-1.5px;line-height:1.15;margin:0 0 16px}
+    .intro{max-width:670px;color:var(--muted);font-size:18px;margin:0}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0 31px}
+    .card{background:linear-gradient(150deg,rgba(21,58,89,.96),rgba(10,35,59,.97));border:1px solid var(--line);border-radius:18px;padding:23px 24px}
+    .card h2,.section h2{font-size:21px;margin:0 0 11px;line-height:1.35}
+    .card p{color:var(--muted);margin:0 0 17px}
+    .button{display:inline-block;text-decoration:none;border-radius:10px;background:var(--accent);color:#052033;font-weight:750;padding:10px 16px;line-height:1.35}
+    .button:hover{background:#95e5f8;color:#052033}
+    .button:focus-visible,a:focus-visible{outline:3px solid #f0cc69;outline-offset:3px}
+    .section{margin:25px 0;padding:24px 25px;border:1px solid var(--line);border-radius:18px;background:rgba(13,39,66,.72)}
+    .social-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
+    .social-link{display:flex;flex-direction:column;gap:4px;min-width:0;padding:15px 16px;border:1px solid #335e7c;border-radius:12px;background:rgba(18,58,89,.78);text-decoration:none}
+    .social-link:hover{border-color:#8fe7ff;background:rgba(34,89,124,.72)}
+    .social-name{color:var(--text);font-size:16px;font-weight:700}
+    .social-handle{color:var(--accent-hi);font-size:13px;overflow-wrap:anywhere}
+    .social-link:focus-visible{outline:3px solid #f0cc69;outline-offset:3px}
+    .section p{color:var(--muted);margin:9px 0}
+    .section ul,.section ol{color:var(--muted);padding-left:23px;margin:10px 0}
+    .section li{padding:3px 0}
+    .section strong{color:var(--text)}
+    .help{margin-top:17px;padding:14px 16px;background:rgba(83,198,230,.07);border-left:3px solid var(--accent);border-radius:0 9px 9px 0;color:var(--muted)}
+    .footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:13px;border-top:1px solid var(--line);padding-top:24px;margin-top:36px;color:var(--muted);font-size:14px}
+    @media(max-width:660px){.cards,.social-grid{grid-template-columns:1fr}.hero{padding-top:32px}.section{padding:20px}.top{padding-top:20px}}
+  </style>
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <div class="mark" aria-hidden="true">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="11" stroke="#8fe7ff" stroke-width="1.7"/>
+        <path d="M20.7 11.3 18.4 18.4 11.3 20.7 13.6 13.6 20.7 11.3Z" stroke="#8fe7ff" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M16 2v3M16 27v3M2 16h3M27 16h3" stroke="#8fe7ff" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="brand">MaritimeHub<span>Seafarer's Toolkit</span></div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <p class="eyebrow">Official support</p>
+      <h1 id="title">How can we help?</h1>
+      <p class="intro">Help with MaritimeHub on iPhone and Android, including nautical calculations, navigation tools, technical issues, subscriptions and PRO purchases.</p>
+    </section>
+
+    <div class="cards">
+      <section class="card" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact support</h2>
+        <p>For questions, bug reports, purchase issues, or feedback, contact the developer directly.</p>
+        <a class="button" href="mailto:reida3rdmate2016@gmail.com?subject=MaritimeHub%20Support">Email support</a>
+        <p style="margin:15px 0 0"><a href="mailto:reida3rdmate2016@gmail.com">reida3rdmate2016@gmail.com</a></p>
+      </section>
+      <section class="card" aria-labelledby="privacy-heading">
+        <h2 id="privacy-heading">Privacy &amp; app information</h2>
+        <p>Read how MaritimeHub uses device information and handles privacy on supported platforms.</p>
+        <a href="https://navynavigator.github.io/privacy-policy/">View Privacy Policy</a>
+      </section>
+    </div>
+
+    <section class="section" aria-labelledby="community-heading">
+      <h2 id="community-heading">Support &amp; community</h2>
+      <p>Follow MaritimeHub, connect with other seafarers, or contact us through the channels below. For technical support or purchase issues, email is the preferred contact method.</p>
+      <div class="social-grid">
+        <a class="social-link" href="https://t.me/MaritimeHubCommunity" target="_blank" rel="noopener noreferrer" aria-label="MaritimeHub Community on Telegram">
+          <span class="social-name">Telegram</span>
+          <span class="social-handle">@MaritimeHubCommunity</span>
+        </a>
+        <a class="social-link" href="https://www.facebook.com/groups/maritimehub/" target="_blank" rel="noopener noreferrer" aria-label="MaritimeHub Community on Facebook">
+          <span class="social-name">Facebook</span>
+          <span class="social-handle">MaritimeHub Community</span>
+        </a>
+        <a class="social-link" href="https://www.instagram.com/reidavladimir/" target="_blank" rel="noopener noreferrer" aria-label="reidavladimir on Instagram">
+          <span class="social-name">Instagram</span>
+          <span class="social-handle">@reidavladimir</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="issue-heading">
+      <h2 id="issue-heading">Report a technical issue</h2>
+      <p>To help us investigate, please include:</p>
+      <ul>
+        <li>Your device model and iOS or Android version.</li>
+        <li>Your MaritimeHub app version.</li>
+        <li>The feature involved and the steps to reproduce the issue.</li>
+        <li>An optional screenshot of the error (without personal or sensitive information).</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="pro-heading">
+      <h2 id="pro-heading">PRO access and purchases</h2>
+      <p><strong>Restore your purchase:</strong> Open MaritimeHub and select <strong>Restore Purchases</strong>. Make sure the device is signed into the Apple Account or Google Play account used for the purchase and has an internet connection.</p>
+      <p><strong>Manage or cancel a subscription:</strong> On iPhone, use the Apple subscription settings. On Android, open Google Play and go to <strong>Payments &amp; subscriptions → Subscriptions</strong>.</p>
+      <p><strong>PRO still not available?</strong> Email support and describe the issue. Do not include payment card details or passwords.</p>
+      <div class="help">Purchases and subscription billing are handled by the relevant app store. Refund requests are reviewed by Apple or Google according to their policies.</div>
+    </section>
+
+    <section class="section" aria-labelledby="scope-heading">
+      <h2 id="scope-heading">About MaritimeHub</h2>
+      <p>MaritimeHub provides calculations, voyage-planning tools, GPS utilities and nautical references designed for seafarers. Many features work offline; certain online services require an internet connection.</p>
+      <p>MaritimeHub is a supplementary planning and reference tool. Always use official nautical publications, approved navigation equipment and established onboard procedures for operational decisions.</p>
+      <p><a href="https://play.google.com/store/apps/details?id=appinventor.ai_reida3rdmate2016.MaritimeHub">MaritimeHub on Google Play</a></p>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>© 2026 Reida Volodymyr. All rights reserved.</span>
+    <span><a href="https://navynavigator.github.io/privacy-policy/">Privacy Policy</a> · <a href="mailto:reida3rdmate2016@gmail.com">Contact</a></span>
+  </footer>
+</div>
+</body>
+</html>
